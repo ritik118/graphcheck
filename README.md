@@ -3,7 +3,7 @@
 A laravel package to analyze json form for radio groups , analyze the data through various graphs 
 like piechart,barchart,columnchart,linechart also write a comment for particular question and download the graph with the comment for reports.
 
-**NOTE -** You should make a `virtual host` and run command `php artisan make:auth` before installing my package.
+**NOTE -** You should make a `virtual host` and run command `php artisan make:auth` before installing this package.
 
 
 # Installation
@@ -18,10 +18,10 @@ Publish the configurations
     
 Import the table using `php artisan migrate` command
 
-**NOTE -** If you want to store your form in json format than replace my file `rawdata.json` from `storage\json` folder with your json
+**NOTE -** If you want to store your form in json format than replace the file `rawdata.json` from `storage\json` folder with your json
 file but with the same name as `rawdata.json`
 
-**Example-**[rawdata.json](https://github.com/ritik118/graphcheck/blob/develop/src/storage/json/rawdata.json)
+**Example format for JSON form-**[rawdata.json](https://github.com/ritik118/graphcheck/blob/develop/src/storage/json/rawdata.json)
  
 ## Storing data from json file into database for question and option table
 
