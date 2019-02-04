@@ -1,8 +1,7 @@
 # Dynamic Graphs for radio groups
 
-A laravel package to analyze json form for radio groups and create random data for 1000 users and analyze the data through various graphs 
-like piechart,barchart,columnchart,linechart and also to write comment and download the graph with the comment for reports.
-
+A laravel package to analyze json form for radio groups , analyze the data through various graphs 
+like piechart,barchart,columnchart,linechart also write a comment for particular question and download the graph with the comment for reports.
 
 **NOTE -** You should make a `virtual host` and run command `php artisan make:auth` before installing my package.
 
