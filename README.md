@@ -22,7 +22,7 @@ Import the table using `php artisan migrate` command
 **NOTE -** If you want to store your form in json format than replace my file `rawdata.json` from `storage\json` folder with your json
 file but with the same name as `rawdata.json`
 
-**Example-**[rawdata.json]()
+**Example-**[rawdata.json](https://github.com/ritik118/graphcheck/blob/develop/src/storage/json/rawdata.json)
  
 ## Storing data from json file into database and generating random data for 1000 people
 
