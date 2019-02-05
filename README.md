@@ -43,7 +43,7 @@ In your browser run the URL
 	
 Run the command `composer dump-autoload`
     
-**Note-** Now store the answers in `answers` table to generate graph of data or run command `php artisan db:seed` to store data of 10 users. Run `db:seed` command only  for above `rawdata.json` file else store your own answers .
+**Note-** Now store the answers in `answers` table to generate graph of data or run command `php artisan db:seed --class=answersTableSeeder` to store data of 10 users. Run `db:seed` command only  for above `rawdata.json` file else store your own answers .
     
 ## Setting up views
 
