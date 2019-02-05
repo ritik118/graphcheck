@@ -32,7 +32,7 @@ class OptionController extends Controller
             $namee=$post[$i-1]->name;
 
             for ($j=0;$j<$n;$j++) {
-               if($jsonarray[$j]['type'] == "header"){
+               if($jsonarray[$j]['type'] == "header" || $jsonarray[$j]['type'] == "paragraph"){
 
                 }
                 else if ($jsonarray[$j]['name'] == $namee) {
